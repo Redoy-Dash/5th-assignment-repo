@@ -26,7 +26,7 @@
     </style>
 </head>
 
-<body>
+<body class="container mx-auto">
     <header class="container mx-auto">
         <div class="navbar bg-base-100 pt-10">
             <div class="navbar-start">
@@ -71,18 +71,36 @@
                 <button class=" btn rounded-lg font-bold bg-[#1DD100] text-2xl">Bay Tickets</button>
             </div>
         </section>
-        <div class="flex justify-center gap-6 -translate-y-10">
-            <div class="border-b-4 border-b-green-600 px-4 py-4 rounded-lg bg-[#FFFFFF]">
-                <h1>500K+</h1>
-                <p>Registered users</p>
+        <div class="flex justify-center gap-6 -translate-y-[240px]">
+            <div
+                class="border-b-4 border-b-green-500 px-4 py-4 rounded-lg bg-[#FFFFFF] w-[270px] h-[125px] flex items-center gap-4">
+                <div>
+                    <img src="images/people.png" alt="">
+                </div>
+                <div>
+                    <h1>500K+</h1>
+                    <p>Registered users</p>
+                </div>
             </div>
-            <div class="border-b-4 border-b-green-600 px-4 py-4 rounded-lg bg-[#FFFFFF]">
-                <h1>500K+</h1>
-                <p>Registered users</p>
+            <div
+                class="border-b-4 border-b-green-500 px-4 py-4 rounded-lg bg-[#FFFFFF] w-[270px] h-[125px] flex items-center gap-4">
+                <div>
+                    <img src="images/ticket-cupon.png" alt="">
+                </div>
+                <div>
+                    <h1>1.7 lacks</h1>
+                    <p>Tickets sold</p>
+                </div>
             </div>
-            <div class="border-b-4 border-b-green-600 px-4 py-4 rounded-lg bg-[#FFFFFF]">
-                <h1>500K+</h1>
-                <p>Registered users</p>
+            <div
+                class="border-b-4 border-b-green-500 px-4 py-4 rounded-lg bg-[#FFFFFF] w-[270px] h-[125px] flex items-center gap-4">
+                <div>
+                    <img src="images/stoppage.png" alt="">
+                </div>
+                <div>
+                    <h1>80K+</h1>
+                    <p>Rental partners</p>
+                </div>
             </div>
         </div>
 
@@ -130,8 +148,8 @@
                 </p>
             </div>
             <!-- parent div  -->
-            <div class="flex gap-4 bg-[#f9caca] shadow-xl rounded-xl px-4 my-10">
-                <div>
+            <div class="gap-4 flex bg-[#f9caca] shadow-xl rounded-xl px-4 my-10">
+                <div class="w-[70%]">
                     <div class="flex justify-between mt-5">
                         <!-- icon section bus -->
                         <div class="flex gap-4 ">
@@ -167,11 +185,11 @@
                     </div>
 
                 </div>
-                <img src="images/info-devider.png" alt="">
+                <img class="" src="images/info-devider.png" alt="">
                 <!-- end div seceond option  -->
                 <!-- right side  -->
                 <div class="divider divider-start"></div>
-                <div class="flex flex-col justify-center items-center gap-4">
+                <div class="flex flex-col justify-center items-center gap-4 w-[30%]">
                     <img src="images/fare.png" alt="">
                     <h1 class="text-2xl font-bold">550 Taka</h1>
                     <p class="font-bold">Per Seat</p>
@@ -205,27 +223,37 @@
 
                     <!-- main bus seat  -->
                     <!-- Parent div  -->
-                    <div class="flex gap-20 mt-4">
+                    <div class="flex gap-20 mt-4 mb-12">
                         <!-- left side section  -->
                         <div>
                             <div class="grid grid-cols-3 gap-4">
                                 <div id="A">A</div>
-                                <div class="bg-[#F7F8F8] px-8 py-3 rounded-lg text-center" id="A1">A1</div>
-                                <div class="bg-[#F7F8F8] px-8 py-3 rounded-lg text-center" id="A2">A2</div>
+                                <button class="btn btn-ghost bg-[#caecec] px-8 py-3 rounded-lg text-center"
+                                    id="A2">A1</button>
+                                <button class="btn btn-ghost bg-[#caecec] px-8 py-3 rounded-lg text-center"
+                                    id="A2">A2</button>
                                 <div id="B">B</div>
-                                <div class="bg-[#F7F8F8] px-8 py-3 rounded-lg text-center" id="B1">B1</div>
-                                <div class="bg-[#F7F8F8] px-8 py-3 rounded-lg text-center" id="B2">B2</div>
+                                <button class="btn btn-ghost bg-[#caecec] px-8 py-3 rounded-lg text-center"
+                                    id="A2">B1</button>
+                                <button class="btn btn-ghost bg-[#caecec] px-8 py-3 rounded-lg text-center"
+                                    id="A2">B2</button>
                             </div>
+                            <!-- class="btn btn-ghost -->
 
                         </div>
                         <!-- right side section  -->
                         <div>
                             <div>
                                 <div class="grid grid-cols-2 gap-4">
-                                    <div class="bg-[#F7F8F8] px-8 py-3 rounded-lg text-center" id="A3">A3</div>
-                                    <div class="bg-[#F7F8F8] px-8 py-3 rounded-lg text-center" id="A4">A4</div>
-                                    <div class="bg-[#F7F8F8] px-8 py-3 rounded-lg text-center" id="B3">B3</div>
-                                    <div class="bg-[#F7F8F8] px-8 py-3 rounded-lg text-center" id="B4">B4</div>
+
+                                    <button class="btn btn-ghost bg-[#caecec] px-8 py-3 rounded-lg text-center"
+                                        id="A2">A3</button>
+                                    <button class="btn btn-ghost bg-[#caecec] px-8 py-3 rounded-lg text-center"
+                                        id="A2">A4</button>
+                                    <button class="btn btn-ghost bg-[#caecec] px-8 py-3 rounded-lg text-center"
+                                        id="A2">B3</button>
+                                    <button class="btn btn-ghost bg-[#caecec] px-8 py-3 rounded-lg text-center"
+                                        id="A2">B4</button>
                                 </div>
                             </div>
                         </div>
