@@ -48,4 +48,4 @@ function updateSelectedSeats() {
 function calculateTotalPrice() {
     // ... (existing calculation code)
 }
-// function 2
+
